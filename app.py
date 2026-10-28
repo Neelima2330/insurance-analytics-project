@@ -4,7 +4,7 @@ import plotly.express as px
 import streamlit as st
 
 BASE = Path(__file__).parent
-DATA = BASE / "data"
+DATA = BASE 
 
 st.set_page_config(page_title="InsureIQ | Insurance Analytics", page_icon="🛡️", layout="wide")
 
